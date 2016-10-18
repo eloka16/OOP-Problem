@@ -46,8 +46,14 @@ Cleaner.prototype = new Employee();
 
 var myCleaner = new Cleaner("Esther","Jules");
 
-//inherintance
+//inheritance
 console.log(myCleaner.status); //should print single
 console.log(myCleaner.numLegs) //should print 2
 console.log(myCleaner.isAlive) //should print true 
 
+//encapsulation
+var employer = new Person('John','Smith',30);
+console.log(john.returnBalance); //should be undefined since it is a private variable
+var myBalanceMethod = john.askTeller();
+var myBalance = myBalanceMethod();
+console.log(myBalance); //should print 7500
