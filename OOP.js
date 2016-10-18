@@ -46,4 +46,8 @@ Cleaner.prototype = new Employee();
 
 var myCleaner = new Cleaner("Esther","Jules");
 
+//inherintance
+console.log(myCleaner.status); //should print single
+console.log(myCleaner.numLegs) //should print 2
+console.log(myCleaner.isAlive) //should print true 
 
